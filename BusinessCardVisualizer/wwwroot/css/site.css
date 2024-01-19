@@ -1,18 +1,43 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
+
+.businessCard {
+    width: 40%;
+    min-width: 400px;
+    background-color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    border: 1px solid;
+    border-color: darkolivegreen;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.businessCard #name {
+    font-size: 3em;
+}
+
+.businessCard #position {
+    font-style: italic; 
+ }
+
+.businessCard #company {
+     text-align: right;
+     font-weight: 800;
+ }
